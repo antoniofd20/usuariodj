@@ -38,4 +38,5 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.nombres + ' ' + self.apellidos
 
     """ Usuarios que he escrito:
-        Antonio --> superuser """
+        Antonio --> superuser
+        Usuario2 --> user """
